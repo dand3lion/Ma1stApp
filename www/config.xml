@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.my1stapp.d3l"
-        version   = "0.0.5">
+        version   = "0.0.6">
 
     <name>Ma 1st App</name>
 
