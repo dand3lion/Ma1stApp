@@ -124,7 +124,6 @@ h1 {
 
 	
 .myImg {
-	position:absolute;
 	top:auto;
 	left:auto;
 	margin-top:-35px;
@@ -135,7 +134,7 @@ h1 {
 	
 /* Portrait layout (default) */
 .myApp {
-    position:relative;
+    position:absolute;
 	overflow:hidden;
     height:200px;                   /* text area height */
     width:200px;                   /* text area width */
@@ -148,7 +147,7 @@ h1 {
 /* Landscape layout (with min-width) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:480px) {
     .myApp {
-		position:fixed;
+		position:absolute;
         padding:0px 0px 0px 0px;  /* padding-top + padding-bottom + text area = image height */
         margin:0px 0px 0px 0px;  /* offset vertical: half of image height */
                                       /* offset horizontal: half of image width and text area width */
@@ -157,7 +156,7 @@ h1 {
 
 /* Portrait layout (default) */
 .myApp2 {
-    position:relative;
+    position:absolute;
 	overflow:hidden;
 	text-align:center;
 	right:0px;
